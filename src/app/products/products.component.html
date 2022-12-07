@@ -1,0 +1,22 @@
+
+<div class="main">
+
+    <div class="container" [class.show]="show">
+        <div class="card" *ngFor="let item of content" (click)="product(item)">
+            <div class="image">
+                <img class="card-img-top" src={{item.image}} alt="Card image cap">
+            </div>
+            <div class="company"><b>Brand </b>{{item.company}}</div>
+            <div class="name"><b>Name </b>{{item.name}}</div>
+            <div class="price"><b>Price </b>{{item.price}}</div>
+            <div class="desc"><b>Description </b>{{item.description}}</div>
+        </div>
+    </div>
+
+    <div class="button">
+        <button (click)="show = !show">{{ show ? 'Show less': 'Show More' }}</button>
+    </div>
+
+</div>
+
+

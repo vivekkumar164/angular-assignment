@@ -1,0 +1,30 @@
+div.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    }
+    .card{
+        width: 25vw;
+        height: 40vw;
+    }
+    .image>img{
+        width: 100%;
+    }
+
+    .image>img:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+
+    .company{
+        font-size: xx-large;
+    }
+    .name{
+        font-size: x-large;
+    }
+    .price{
+        font-size: larger;
+    }
+    .desc{
+        font-size: large;
+    }

@@ -1,0 +1,59 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    align-self: flex-end;
+}
+
+.button>button{
+    background-color: rgb(66, 65, 63);
+    color: rgb(231, 234, 241);
+    height: 3em;
+    width: 8rem;
+    border-radius: 1rem;
+}
+
+.container {
+    height: 80vw;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.show {
+    overflow: visible;
+    height: auto;
+}
+
+.card {
+    width: 25vw;
+    height: 40vw;
+}
+
+.image>img {
+    width: 100%;
+}
+
+.company {
+    font-size: xx-large;
+}
+
+.name {
+    font-size: x-large;
+}
+
+.price {
+    font-size: larger;
+}
+
+.desc {
+    font-size: large;
+}
+
+.image>img:hover {
+    transform: scale(1.5);
+}
